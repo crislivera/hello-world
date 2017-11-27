@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Pet Villa</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Styles/home%20page.css">
+</head>
+<body>
+<div class="container">
+   
+    <header>
+<img src="images/logo.png" alt="Home"  width=30%>
+  </header>
+  
+  
+  <!--navigation bar-->
+  <nav>
+  
+   <div class="navbar">
+  <a href="home%20page.html">Home</a>
+  <a href="pages/contact%20us.html">Contact Us</a>
+
+ 
+ <!--dropdown start-->
+  <div class="dropdown">
+    <button class="dropbtn">Dogs 
+      <i class="down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+      
+        <div class="column">
+         
+            <a href="pages/Dogs.html">Buy Dogs</a>
+            <a href="pages/dogs%20food.html">Dog Foods</a>
+            <a href="pages/dogs%20acc.html">Accessories</a>
+            
+        </div>
+        
+    
+    </div>
+  </div> 
+  
+    <div class="dropdown">
+    <button class="dropbtn">Cats
+      <i class="down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+        <div class="column">
+         
+            <a href="pages/cats.html">Buy Cats</a>
+            <a href="pages/cats%20food.html">Cat Foods</a>
+            <a href="pages/cats%20accessories.html">Accessories</a>
+            
+        </div>
+        
+      
+    </div>
+  </div> 
+  
+    <div class="dropdown">
+    <button class="dropbtn">Fish
+      <i class="down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+     
+        <div class="column">
+         
+            <a href="pages/fish.html">Buy Fishes</a>
+            <a href="pages/fish%20food.html">Fish Foods</a>
+            <a href="pages/fish%20accessories.html">Accessories</a>
+            <a href="pages/aqua%20plants.html">Buy Aqua Plants</a>
+        </div>
+        
+     
+    </div>
+  </div> 
+  
+    <div class="dropdown">
+    <button class="dropbtn">Birds
+      <i class="down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+     
+        <div class="column">
+        
+            <a href="pages/birds.html">Buy Birds</a>
+            <a href="pages/birds%20food.html">Bird foods</a>
+            <a href="pages/birds%20acc.html">Accessories</a>
+            
+        </div>
+        
+      
+    </div>
+  </div> 
+  
+  <!--dropdown end-->
+  <a href="pages/veterinary%20service.html">Veterinary Service</a>
+
+<form>
+  <input type="text" name="search" placeholder="Search ..">
+      </form></div>
+  </nav>
+  <!--end of navigation bar-->
+  
+  <!--start of body-->
+  
+  <!--slide show-->
+ 
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<img src="images/cover1.jpg" style="width:100%">
+ </div>
+
+<div class="mySlides fade">
+  <img src="images/cover2.jpg" style="width:100%">
+    </div>
+<div class="mySlides fade">
+  <img src="images/cover3.jpg" style="width:100%">
+    </div>
+
+<div class="mySlides fade">
+ <img src="images/cover4.jpg" style="width:100%">
+    </div>
+<div class="mySlides fade">
+  <img src="images/cover5.jpg" style="width:100%">
+    </div>
+    </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<!--java script part-->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+ 
+  <!--slide show end-->
+ <!--content of page-->
+ 
+    <div class="row">
+      <div class="column1 main">
+        <h1>Hello !!! Welcome to pet Villa...</h1>
+            <p>Pet Villa is an online pet store for pet lovers in Sri Lanka. Pets are our life long companions who are always there to emotionally support us. They are our friends who are there to drive away the boredom and loneliness in our lives. We have a wide variety of pet animals for you in our store. You may be a dog lover, a cat fan, a bird or fish fanatic; this is the perfect store for you to shop for your pet and make your life absolutely petful !!!</p>
+            <br>
+ 
+<div class="container5">
+            <div class="row5"> 
+  <div class="column5">
+    <img src="images/1.jpg" style="width:100%">
+    <img src="images/2.jpg" style="width:100%">
+    <img src="images/3.jpg" style="width:100%">
+    <img src="images/4.jpg" style="width:100%">
+    <img src="images/5.jpg" style="width:100%">
+    <img src="images/6.jpg" style="width:100%">
+    <img src="images/7.jpg" style="width:100%">
+    
+  </div>
+  <div class="column5">
+    <img src="images/9.jpg" style="width:100%">
+    <img src="images/10.jpg" style="width:100%">
+    <img src="images/11.jpg" style="width:100%">
+    <img src="images/12.jpg" style="width:100%">
+    <img src="images/13.jpg" style="width:100%">
+    <img src="images/14.jpg" style="width:100%">
+    
+  </div>  
+  <div class="column5">
+    <img src="images/16.jpg" style="width:100%">
+    <img src="images/17.jpg" style="width:100%">
+    <img src="images/18.jpg" style="width:100%">
+    <img src="images/19.jpeg" style="width:100%">
+    <img src="images/20.jpg" style="width:100%">
+    <img src="images/21.jpg" style="width:100%">
+    <img src="images/22.jpg" style="width:100%">
+    
+  </div>
+  <div class="column5">
+    <img src="images/24.jpg" style="width:100%">
+    <img src="images/25.jpg" style="width:100%">
+    <img src="images/26.jpg" style="width:100%">
+    <img src="images/27.jpg" style="width:100%">
+    <img src="images/28.jpg" style="width:100%">
+    <img src="images/29.jpg" style="width:100%">
+   
+  </div>
+</div>
+     </div>
+      
+        </div>
+        <div class="column1 side">
+          <!--sign in-->
+        
+        <form class="login"  action="#">
+
+  <div class="container login">
+      <h3>Login to Your Account </h3>
+    <label><b>Username</b></label>
+    <input class="lgin" type="text" placeholder="Enter Username" name="uname" required>
+    <br>
+
+    <label><b>Password</b></label>
+    <input class="lgin" type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button class="lgin" type="submit">Login</button>
+    
+  
+    <input class="cbli" type="checkbox" checked="checked"> Remember me 
+      <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+<div class="container login" style="background-color:#f1f1f1">
+    
+</div>
+            
+</form>
+       
+       
+        
+        <!--sign in end-->
+        <!--sign up-->
+        
+        
+
+<form class="sign up" action="#" style="border:1px solid #ccc">
+  <div class="container signup">
+  <h3>New to Pet Villa? </h3>
+    <label><b>Email</b></label>
+    <input class="suem" type="text" placeholder="Enter Email" name="email" required>
+<br>
+    <label><b>Password</b></label>
+    <input class="supw" type="password" placeholder="Enter Password" name="psw" required>
+<br>
+    <label><b>Repeat Password</b></label>
+    <input class="supw" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+        <!--sign up end-->
+        
+        
+        <!--news letter-->
+         <form class="newsletter" >
+
+  <div class="containernl">
+    <h3>Subscribe to our Newsletter</h3>
+    <p>Subscribe to our newsletter to recieve daily updates from the pet world once a month. Get to know news related to your pet, seasonal offers, special deals and much more. And remember... it's all FREE OF CHARGE !!!  </p>
+  </div>
+
+  <div class="containernl" style="background-color:white">
+    <input class="nl" type="text" placeholder="Name" name="name" required>
+    <input class="nl" type="text" placeholder="Email address" name="mail" required>
+    <input class="nl" type="checkbox" checked="checked"> Daily Newsletter
+  </div>
+
+  <div class="containernl">
+    <input class="nl" type="submit" value="Subscribe">
+  </div>
+
+</form>
+          
+      </div>
+  </div>
+          
+     
+ 
+  <!--Footer-->
+<div class="footer">
+<div class="menu">
+  
+    <img src="images/logo.png" width="100%" >
+    <br>
+    <p class="cr">© 2017 Petvilla.com. All rights reserved.</p>
+</div>
+<div class="menu">
+    <h4>Contact Us</h4>
+    <address>
+        Hotline: +94112233445<br>
+        Mobile: +94775641239<br>
+        petvilla@gmail.com<br>
+    </address>
+    
+    
+</div>
+<div class="menu">
+  <h4>Visit us</h4>
+   <address>
+       Pet Villa Pvt.Ltd<br>
+       Galle Road<br>
+       Colombo 6<br>
+       Sri Lanka.
+   </address>
+    </div>
+    <div class="menu">
+        <h4>Stay Connected</h4>
+        <address>
+            <img  src="images/fblogo.png" width="10%"><a href="https://www.facebook.com/" target="_blank">Join us in Facebook</a><br>
+            
+            <img src="images/twtlogo.png" width="10%"><a href="https://twitter.com/Twitter" target="_blank">Join us in Twitter</a><br>
+            
+            <img  src="images/instalogo.png" width="10%" ><a href="https://www.instagram.com/?hl=en" target="_blank">Join us in Instagram</a><br>
+            
+            <img src="images/gpluslogo.png" width="10%"><a href="https://plus.google.com/discover" target="_blank">Join us in Google plus</a>
+        </address>
+    </div>
+    </div>
+    
+   
+    
+</div>
+</body>
+</html>
